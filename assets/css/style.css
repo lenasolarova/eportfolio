@@ -1030,7 +1030,20 @@ main {
 }
 
 
+article.project-detail p {
+  color: #ffffff !important;
+}
 
+/* Target all links inside your content */
+p a {
+  color: #ffffff; /* white */
+  text-decoration: underline; /* optional, makes it clear it's a link */
+}
+
+/* Optional: hover effect */
+p a:hover {
+  color: #cec651;
+}
 
 
 /*-----------------------------------*\
