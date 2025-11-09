@@ -528,7 +528,7 @@
                   <img src="./assets/images/project.jpg" alt="Launch into Computing Discussion" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Launch into Computing Discussion</h3>
+                <h3 class="project-title">Launch into Computing Final Project</h3>
                 <p class="project-category">Launch into Computing (July 2025)</p>
               </a>
             </li>
@@ -580,6 +580,19 @@
 
               </a>
             </li>
+
+
+            <li class="project-item" data-filter-item data-category="Deciphering Big Data (October 2025)">
+              <a href="#" class="project-link" data-project-page="web-scrape">
+                <figure class="project-img">
+                  <img src="./assets/images/Screenshot From 2025-11-09 16-21-20.png" alt="Deciphering big data web scraping" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Deciphering Big Data Web Scraping Activity</h3>
+                <p class="project-category">Deciphering Big Data (October 2025)</p>
+              </a>
+            </li>
+
 
           </ul>
 
@@ -633,17 +646,84 @@
           </p>
           <br>
           <p>
-            <span style="color: #ffcc00;">Feedback / Grade:</span> not graded yet
-          </p>
-          <br>
-          <p>
-            <span style="color: #ffcc00;">Skills learned:</span> Python programming, basic algorithm design, and effective collaborative problem-solving.
+            <span style="color: #ffcc00;">Skills learned:</span> Python programming, basic algorithm design, and effective problem-solving.
           </p>
 
           <button class="back-btn" data-nav-link="school">← Back to School Projects</button>
 
         </section>
       </article>
+
+
+      <!--
+        Web Scraping big data details
+      -->
+
+      <article class="project-detail" data-page="web-scrape">
+        <header>
+          <h2 class="h2 article-title"></h2>
+        </header>
+        <header>
+          <h2 class="h2 article-title">Deciphering Big Data Web Scraping Activity</h2>
+        </header>
+
+        <section class="project-detail-text">
+
+          <figure class="project-img">
+            <img src="./assets/images/Screenshot From 2025-11-09 16-21-20.png" alt="Deciphering Big Data Web Scraping Activity" loading="lazy">
+          </figure>
+
+          <p>
+            <span style="color: #ffcc00;">This goal of this project</span> was to teach us how to utilise bs4 and requests libraries 
+            in python to do very simple web scraping using the websites' HTML.
+          </p>
+          <br>
+          <p>
+            <span style="color: #ffcc00;">General idea</span> The exercise was about choosing any website and using the appropriate libraries 
+            to scrape the website and find the term "data scientist". I decided to scrape a job portal (Czechia's biggest one after Indeed - jobs.cz)
+            and specifically the seach results for "data scientist". 
+          </p>
+          <br>
+          <p>
+            <span style="color: #ffcc00;">Challenges and Implementation:</span> 
+          </p>
+          <br>
+          <p>
+            I initially chose to scrape indeed.com but I came 
+            across many issues with the website returning error 403 (Access denied) even when I used a token since it recognised I was 
+            trying to web scrape it and was not a normal user. Instead of using indeed.com I decided to focus on jobs.cz which is 
+            a smaller more local website and the access was no issue then. 
+          </p>
+          <br>
+          <p>
+            Implementation itself was very simple, the only issue was inspecting the job 
+            portal website's HTML to find out which elements contained the appropriate data to filter out. This also brings our one of the main 
+            challenges this solution would have on a larger scale and that's consistency across websites. While jobs.cz may have the data in h2 
+            elements this is not the case for other websites thus confirming the data collection and filtering process is usually one of the most 
+            time consuming tasks of a data scientist.
+          </p>
+          <br>
+          <p>
+            The result is saved into JSON.
+          </p>
+          <br>
+          <p>
+            <span style="color: #ffcc00;">Link to a GitHub project:</span>
+            <a href="https://github.com/lenasolarova/web_scraping_jobs" target="_blank" rel="noopener noreferrer">
+              https://github.com/lenasolarova/web_scraping_jobs
+            </a>
+          </p>
+          <br>
+          <p>
+            <span style="color: #ffcc00;">Skills learned:</span> Python programming, HTML inspection
+          </p>
+
+          <button class="back-btn" data-nav-link="school">← Back to School Projects</button>
+
+        </section>
+      </article>
+
+
 
 
 
