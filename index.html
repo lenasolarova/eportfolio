@@ -1678,7 +1678,7 @@
             <strong>Machine learning algorithms.</strong> What surprised me the most was how many different
             approaches exist for what seem like similar problems. In the early units I learned about linear
             regression and SVMs, then moved to unsupervised methods like K-Means clustering, and finally to
-            neural networks and CNNs. Each technique has its strengths — SVMs are fast and work well on smaller
+            neural networks and CNNs. Each technique has its strengths, SVMs are fast and work well on smaller
             datasets while CNNs can automatically learn features from images but need more data and computing
             power. I think the most valuable thing I took away is that choosing the right algorithm is not about
             picking the most complex one but about understanding the trade-offs. In my final project, the SVM
@@ -1691,7 +1691,7 @@
             assigned to Track 3 (Advanced ML) and had to analyse Airbnb data using self-supervised learning and
             Neural Architecture Search. Forming the team was slow because some members took three or four weeks
             to respond to messages, and even after the team was assembled not everyone contributed equally. Paul
-            was the team leader and by far the most active contributor — he handled the preprocessing, NAS
+            was the team leader and by far the most active contributor, he handled the preprocessing, NAS
             optimisation and most of the organisational work. I took on the exploratory data analysis, creating
             visualisations of pricing patterns across neighbourhoods, room types and seasons. I also helped clean
             the data and convert an R preprocessing script into a Jupyter notebook so it was consistent with the
@@ -1701,7 +1701,7 @@
           <br>
           <p>
             Working in a team where some people were less engaged was frustrating but also taught me something
-            important. At work at Red Hat I am used to a team where everyone pulls their weight, so dealing with
+            important. At work I am used to a team where everyone pulls their weight, so dealing with
             uneven contribution in a university setting was a different challenge. I learned that you cannot
             always rely on everyone doing their part and sometimes you just have to step up and fill the gaps
             rather than waiting around. Paul and I ended up doing most of the work between us, and while that
@@ -1710,14 +1710,14 @@
           <br>
           <p>
             <strong>Ethical and professional awareness.</strong> Before this module I thought of ethics in AI as
-            something abstract — bias and fairness were topics I had heard about but never really connected to
+            something abstract, bias and fairness were topics I had heard about but never really connected to
             my own work. That changed significantly especially during the final project. When I saw that my
             pneumonia detection model had 128 false positives (healthy patients flagged as having pneumonia) vs
             only 2 false negatives (missed pneumonia cases), I realised how the choice of metrics directly
             affects real people. Reporting 79% accuracy sounds fine but it hides the fact that over half of
             normal patients would get unnecessary follow-ups. In medical AI that matters enormously. The Grad-CAM
             and LIME explainability work also made me appreciate why black-box models are problematic in
-            healthcare — if a doctor cannot see why the model flagged a case, they cannot trust it. The EU AI
+            healthcare, if a doctor cannot see why the model flagged a case, they cannot trust it. The EU AI
             Act (2024) classifying medical AI as high-risk suddenly made a lot of practical sense to me.
           </p>
           <br>
@@ -1725,11 +1725,10 @@
           <h3 class="h3 article-title" style="color: #ffcc00;">Now What</h3>
 
           <p>
-            This module has had a clear impact on how I think about my professional work. At Red Hat I work on
-            data pipelines for OpenShift insights, and while that is not directly machine learning, understanding
+            This module has had a clear impact on how I think about my professional work. At work I deal with data pipelines and understanding
             how models consume data and what happens when data quality is poor gives me a much better perspective
             on why the pipelines I maintain matter. I now understand that the preprocessing and data quality work
-            we do is not just a technical requirement — it directly affects model reliability and by extension
+            we do is not just a technical requirement, it directly affects model reliability and by extension
             the decisions that depend on those models.
           </p>
           <br>
@@ -1738,17 +1737,26 @@
             scikit-learn, LIME) and in working with image data which was completely new to me. The final project
             pushed me to learn transfer learning, Grad-CAM, and cross-validation, all of which I can see
             applying in future modules or in personal projects. I also developed a much stronger appreciation
-            for explainability — not as an academic box-ticking exercise but as a genuine professional
+            for explainability, not as an academic box-ticking exercise but as a genuine professional
             responsibility.
           </p>
           <br>
           <p>
-            Going forward I want to explore self-supervised learning more since the team project gave me a taste
-            of it and it seems like the direction the field is moving. I would also like to get more comfortable
-            with deployment tools like SageMaker or ONNX since that was the one area of the final project that
-            remained theoretical. Overall this module took me from knowing the basics of Python and data to
-            feeling like I could actually build, evaluate and critically assess a real ML system, and that is
-            something I did not expect when I started.
+            One thing I did find a bit disappointing is that most of the work in this module stayed within Jupyter
+            notebooks with no real deployments. The final project discussed deployment on AWS SageMaker but it
+            remained theoretical, and the same was true for the other exercises. I understand that actual cloud
+            deployment would require time, infrastructure and costs that are not realistic within a 12-week module,
+            but I would have liked at least a small hands-on exercise with exporting a model or setting up an
+            inference endpoint. That said, this gap has motivated me to explore deployment tools like SageMaker or
+            ONNX on my own since it feels like the missing piece between building a model and actually using it in
+            the real world.
+          </p>
+          <br>
+          <p>
+            Going forward I also want to explore self-supervised learning more since the team project gave me a
+            taste of it and it seems like the direction the field is moving. Overall this module took me from
+            knowing the basics of Python and data to feeling like I could actually build, evaluate and critically
+            assess a real ML system, and that is something I did not expect when I started.
           </p>
           <br>
 
